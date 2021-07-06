@@ -1,0 +1,11 @@
+{
+  "name": "auto-changelog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/duochen/auto-changelog.git",
+  "author": "Duo Chen <dchen@slb.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
