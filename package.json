@@ -11,10 +11,14 @@
     "commit": "git-cz"
   },
   "devDependencies": {
-    "standard-version": "^9.3.0"
-  },
-  "dependencies": {
+    "standard-version": "^9.3.0",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0"
+  },
+  "dependencies": {},
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
