@@ -7,15 +7,14 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "release": "standard-version",
     "commit": "git-cz"
   },
   "devDependencies": {
-    "standard-version": "^9.3.0",
-    "commitizen": "^4.2.4",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "3.3.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "commitizen": "^4.2.4"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
